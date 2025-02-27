@@ -3,8 +3,8 @@ server:
 spring:
   application:
     name: customer-service 
-  cloud:
-    config:
-      enabled: false 
+  # cloud:
+  #   config:
+  #     enabled: false 
 #  config:
 #    import: "optional:configserver:http://localhost:8888"  
